@@ -1,0 +1,174 @@
+/* styles.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px; /* Add padding to the body */
+  box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+.container {
+  max-width: 1000px; /* Increase the maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Add padding to the container */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.form-container input[type="text"] {
+  width: calc(100% - 110px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.habit {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px; /* Add padding to each habit */
+  margin-bottom: 20px;
+}
+
+.habit h3 {
+  margin: 0;
+}
+
+.delete-button {
+  padding: 8px 12px;
+  background-color: #ff5f5f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #ff4242;
+}
+
+.history {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+.history-day {
+  flex: 0 0 auto;
+  width: 80px; /* Adjust the width as needed */
+  height: 60px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-day .day {
+  font-weight: bold;
+}
+
+.history-day .date {
+  font-size: 0.8em;
+}
+
+.done {
+  background-color: #4CAF50;
+}
+
+.notDone {
+  background-color: #ff5f5f;
+}
+
+.none {
+  background-color: #ffd700;
+}
+
+/* Add this to your styles.css */
+.progress-info {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.history {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+.history-day {
+  flex: 0 0 auto;
+  width: 80px; /* Adjust the width as needed */
+  height: 60px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-day .day {
+  font-weight: bold;
+}
+
+.history-day .date {
+  font-size: 0.8em;
+}
+
+.done {
+  background-color: #4CAF50;
+}
+
+.notDone {
+  background-color: #ff5f5f;
+}
+
+.none {
+  background-color: #ffd700;
+}
+
+/* Add this to your styles.css */
+.delete-button,
+.add-habit-button {
+  padding: 8px 12px;
+  background-color: #ff5f5f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px; /* Add margin between buttons */
+}
+
+.delete-button:hover,
+.add-habit-button:hover {
+  background-color: #ff4242;
+}
